@@ -100,7 +100,7 @@
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
             ignored-key-positions = <24 37>;
         };
-    }
+    };
 
     keymap {
         compatible = "zmk,keymap";
