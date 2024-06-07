@@ -32,8 +32,8 @@
         };
 
         COMBO_PLUS {
-            bindings = <&kp PLUS>;
-            key-positions = <17 16>;
+            bindings = <&kp TILDE>;
+            key-positions = <7 19>;
         };
 
         COMBO_EQUALS {
@@ -64,16 +64,6 @@
         COMBO_PERCENT {
             bindings = <&kp PERCENT>;
             key-positions = <17 29>;
-        };
-
-        COMBO_AMPERSAND {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <19 31>;
-        };
-
-        COMBO_ASTERISK {
-            bindings = <&kp ASTERISK>;
-            key-positions = <20 32>;
         };
 
         COMBO_COPY {
@@ -117,10 +107,10 @@
 
         LOWER {
             bindings = <
-&swap          &kp N1          &kp N2         &kp N3     &kp N4     &kp N5      &kp PLUS   &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
-&kp BACKSPACE  &kp N6          &kp N7         &kp N8     &kp N9     &kp N0      &kp MINUS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans                &kp DOUBLE_QUOTES      &kp COLON
-&trans         &kp UNDERSCORE  &kp BACKSLASH  &kp MINUS  &kp EQUAL  &kp PLUS    &trans     &kp LBKT        &kp RBKT         &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION
-                                              &trans     &trans     &trans      &trans     &mo 3           &trans
+&swap          &kp N1          &kp N2         &kp N3     &kp N4     &kp N5      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans             &kp TILDE
+&kp BACKSPACE  &kp N6          &kp N7         &kp N8     &kp N9     &kp N0      &trans         &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOUBLE_QUOTES  &kp COLON
+&trans         &kp UNDERSCORE  &kp BACKSLASH  &kp MINUS  &kp EQUAL  &kp PLUS    &trans         &kp LBKT      &kp RBKT              &kp LESS_THAN          &kp GREATER_THAN   &kp QUESTION
+                                              &trans     &trans     &trans      &trans         &mo 3         &trans
             >;
         };
 
@@ -135,10 +125,10 @@
 
         ADJUST {
             bindings = <
-&kp F1   &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9         &kp F10      &kp F11  &kp F12
-&kp DEL  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp PAGE_DOWN  &kp PAGE_UP  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans       &trans   &trans
-                         &trans  &trans  &trans    &trans  &trans  &trans
+&kp F1   &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8         &kp F9     &kp F10  &kp F11  &kp F12
+&kp DEL  &trans  &trans  &trans  &trans  &trans    &trans  &kp PAGE_DOWN  &kp PG_UP  &trans   &trans   &trans
+&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans     &trans   &trans   &trans
+                         &trans  &trans  &trans    &trans  &trans         &trans
             >;
         };
     };
