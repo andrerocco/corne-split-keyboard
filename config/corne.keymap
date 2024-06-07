@@ -94,7 +94,7 @@
 
         bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
-            label = "Delete if Shift is pressed, Backspace otherwise";
+            label = "Shift+Delete or Backspace";
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
 
