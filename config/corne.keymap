@@ -7,7 +7,7 @@
 
         COMBO_ALT {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <37 38>;
+            key-positions = <37 36>;
             layers = <0>;
         };
 
