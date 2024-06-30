@@ -148,9 +148,9 @@
 
         RAISE {
             bindings = <
-&kp ESCAPE      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp AMPERSAND      &kp ASTERISK  &kp UP_ARROW  &kp C_PREV  &kp C_NEXT         &kp TILDE
-&kp BACKSPACE   &tilded_a        &trans       &trans    &trans      &kp DELETE     &kp C_VOLUME_UP    &kp LEFT      &kp DOWN      &kp RIGHT   &kp DOUBLE_QUOTES  &kp COLON
-&kp LEFT_SHIFT  &trans           &trans       &trans    &trans      &trans         &kp C_VOLUME_DOWN  &kp C_MUTE    &kp C_PAUSE   &trans      &trans             &kp QUESTION
+&kp ESCAPE      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp AMPERSAND      &kp ASTERISK  &kp UP_ARROW      &kp C_PREV  &kp C_NEXT         &kp TILDE
+&kp BACKSPACE   &tilded_a        &trans       &trans    &trans      &kp DELETE     &kp C_VOLUME_UP    &kp LEFT      &kp DOWN          &kp RIGHT   &kp DOUBLE_QUOTES  &kp COLON
+&kp LEFT_SHIFT  &trans           &trans       &trans    &trans      &trans         &kp C_VOLUME_DOWN  &kp C_MUTE    &kp C_PLAY_PAUSE  &trans      &trans             &kp QUESTION
                                               &mo 3     &trans      &trans         &trans             &trans        &kp LEFT_ALT
             >;
         };
